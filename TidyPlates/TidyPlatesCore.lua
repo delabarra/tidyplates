@@ -971,7 +971,7 @@ do
 		SetUpdateAll()
 	end
 
-	function CoreEvents:UNIT_HEALTH_FREQUENT(...)
+	function CoreEvents:UNIT_HEALTH(...)
 		local unitid = ...
 		local plate = PlatesByUnit[unitid]
 
